@@ -1,0 +1,47 @@
+summoner=素来喜望花似锦 puuid_len=36
+
+[by-puuid] HTTP 200 /lol-match-history/v1/products/lol/016c175b-7604-5857-bfc1-e105816b1635/matches?begIndex=0&endIndex=100
+  returned=101 unique=101
+  type=MATCHED_GAME queue=440 mode=CLASSIC count=53
+  type=MATCHED_GAME queue=420 mode=CLASSIC count=34
+  type=MATCHED_GAME queue=2400 mode=KIWI count=14
+  customs=0
+
+[current-summoner] HTTP 200 /lol-match-history/v1/products/lol/current-summoner/matches?begIndex=0&endIndex=20
+  returned=101 unique=101
+  type=MATCHED_GAME queue=440 mode=CLASSIC count=53
+  type=MATCHED_GAME queue=420 mode=CLASSIC count=34
+  type=MATCHED_GAME queue=2400 mode=KIWI count=14
+  customs=0
+
+[filter-custom] HTTP 400 /lol-match-history/v1/products/lol/016c175b-7604-5857-bfc1-e105816b1635/matches?begIndex=0&endIndex=20&gameType=CUSTOM_GAME
+  body={"errorCode":"BAD_REQUEST","httpStatus":400,"message":"Unknown argument 'gameType' for 'GetLolMatchHistoryV1ProductsLolByPuuidMatches'."}
+
+[detail] id=10641059881 HTTP 200
+  type=CUSTOM_GAME queue=3110 mode=CLASSIC players=10
+  team=100 name=Secret丶菠萝 champ=516 7/3/10 win=True
+  team=100 name=素来喜望花似锦 champ=121 19/3/13 win=True
+  team=100 name=尼古拉斯張三 champ=517 5/7/15 win=True
+  team=100 name=紫嫣竹竹鸭UvU champ=221 10/8/8 win=True
+  team=100 name=共同富裕新时代 champ=63 1/7/12 win=True
+  team=200 name=BLGElk champ=36 4/5/5 win=False
+  team=200 name=还想再说句晚安 champ=131 5/9/7 win=False
+  team=200 name=讨厌红楼梦qaq champ=55 9/10/1 win=False
+  team=200 name=Rookie champ=51 9/11/2 win=False
+  team=200 name=空中一匹鸟 champ=25 1/7/14 win=False
+
+[detail] id=HN1-10641059881 HTTP 400
+  body={"errorCode":"RPC_ERROR","httpStatus":400,"implementationDetails":{},"message":"Value HN1-10641059881 for 'gameId' of type uint64 is in an incorrect format"}
+
+[detail] id=11431077066 HTTP 200
+  type=MATCHED_GAME queue=440 mode=CLASSIC players=10
+  team=100 name=走位要骚动作要帅 champ=240 6/6/10 win=True
+  team=100 name=yes champ=163 18/1/9 win=True
+  team=100 name=世一萌 champ=55 7/4/9 win=True
+  team=100 name=好好先生 champ=804 8/9/14 win=True
+  team=100 name=知知知 champ=526 3/5/19 win=True
+  team=200 name=曼珠沙蕐2丶0 champ=24 4/10/0 win=False
+  team=200 name=素来喜望花似锦 champ=121 6/6/4 win=False
+  team=200 name=car champ=3 2/8/4 win=False
+  team=200 name=Sakiko champ=50 11/6/5 win=False
+  team=200 name=Madlife champ=111 2/12/13 win=False

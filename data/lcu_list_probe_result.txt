@@ -1,0 +1,23 @@
+accountId=2972518049 puuid_len=36
+product-beg0-end1: HTTP 200 len=429017
+  keys=['accountId', 'games', 'platformId']
+  games=101
+  contains_11155247950=False
+  types={('MATCHED_GAME', 440): 53, ('MATCHED_GAME', 2400): 14, ('MATCHED_GAME', 420): 34}
+  sample id=11431077066 type=MATCHED_GAME queue=440 date=1793539475020
+  sample id=11430967927 type=MATCHED_GAME queue=440 date=1793538230128
+  sample id=11430860846 type=MATCHED_GAME queue=440 date=1793537029388
+product-beg100-end200: HTTP 200 len=429017
+  keys=['accountId', 'games', 'platformId']
+  games=101
+  contains_11155247950=False
+  types={('MATCHED_GAME', 440): 53, ('MATCHED_GAME', 2400): 14, ('MATCHED_GAME', 420): 34}
+  sample id=11431077066 type=MATCHED_GAME queue=440 date=1793539475020
+  sample id=11430967927 type=MATCHED_GAME queue=440 date=1793538230128
+  sample id=11430860846 type=MATCHED_GAME queue=440 date=1793537029388
+friend-matchlists: HTTP 404 len=82
+  {"errorCode":"RESOURCE_NOT_FOUND","httpStatus":404,"message":"Invalid URI format"}
+product-date-ms: HTTP 400 len=142
+  {"errorCode":"BAD_REQUEST","httpStatus":400,"message":"Unknown argument 'gameBeginDate' for 'GetLolMatchHistoryV1ProductsLolByPuuidMatches'."}
+product-date-str: HTTP 400 len=142
+  {"errorCode":"BAD_REQUEST","httpStatus":400,"message":"Unknown argument 'gameBeginDate' for 'GetLolMatchHistoryV1ProductsLolByPuuidMatches'."}
