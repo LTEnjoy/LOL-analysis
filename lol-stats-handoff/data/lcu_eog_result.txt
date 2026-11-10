@@ -1,9 +1,0 @@
-/lol-gameflow/v1/gameflow-phase -> 200 len=6
-/lol-gameflow/v1/session -> 404 len=109 body={"errorCode":"RPC_ERROR","httpStatus":404,"implementationDetails":{},"message":"No gameflow session exists."}
-/lol-end-of-game/v1/eog-stats-block -> 404 len=113 body={"errorCode":"RPC_ERROR","httpStatus":404,"implementationDetails":{},"message":"No end of game stats available."}
-/lol-end-of-game/v1/game-id -> 404 len=82 body={"errorCode":"RESOURCE_NOT_FOUND","httpStatus":404,"message":"Invalid URI format"}
-/lol-pre-end-of-game/v1/current-game-id -> 404 len=82 body={"errorCode":"RESOURCE_NOT_FOUND","httpStatus":404,"message":"Invalid URI format"}
-/lol-replays/v1/rofls -> 404 len=82 body={"errorCode":"RESOURCE_NOT_FOUND","httpStatus":404,"message":"Invalid URI format"}
-/lol-match-history/v1/recently-played -> 404 len=82 body={"errorCode":"RESOURCE_NOT_FOUND","httpStatus":404,"message":"Invalid URI format"}
-/lol-match-history/v1/products/lol/current-summoner/matches?begIndex=0&endIndex=5 -> 200 len=427603 keys=accountId,games,platformId
-/lol-match-history/v1/games/10641059881 -> 200 len=31793 keys=endOfGameResult,gameCreation,gameCreationDate,gameDuration,gameId,gameMode,gameModeMutators,gameType,gameVersion,mapId,participantIdentities,participants,platformId,queueId,seasonId,teams gameId=10641059881 queueId=3110 gameType=CUSTOM_GAME players=10

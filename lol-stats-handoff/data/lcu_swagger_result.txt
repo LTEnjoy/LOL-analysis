@@ -1,5 +1,0 @@
-/swagger/v3/openapi.json -> 401 len=93 ct=application/json
-/swagger/v2/openapi.json -> 404 len=82 ct=application/json
-/swagger/v1/openapi.json -> 404 len=82 ct=application/json
-/openapi.json -> 404 len=80 ct=application/json
-/docs -> 404 len=80 ct=application/json
